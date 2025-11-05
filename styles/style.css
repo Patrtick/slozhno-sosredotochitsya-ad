@@ -13,12 +13,14 @@
 }
 
 .shadow-decor {
+  /* смещение по X по Y и размытие 0(чёткая тень)*/
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .cover {
   display: grid;
   min-block-size: 100vh;
+  /* адаптивный внутренний отступ */
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
